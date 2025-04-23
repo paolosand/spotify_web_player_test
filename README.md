@@ -1,61 +1,70 @@
-# Web Playback SDK Javascript Tutorial
+# Getting Started with Create React App
 
-This repository contains the source code for the [Web Playback SDK Guide](https://developer.spotify.com/documentation/web-playback-sdk/guide/).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Using your own credentials
+## Available Scripts
 
-You will need to register your app and get your own credentials from the
-[Spotify for Developers Dashboard](https://developer.spotify.com/dashboard/)
+In the project directory, you can run:
 
-To do so, go to your Spotify for Developers Dashboard, create your
-application and register the following callback URI:
+### `npm start`
 
-`http://localhost:3000/auth/callback`
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Once you have created your app, create a file called `.env` in the root folder
-of the repository with your Spotify credentials:
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-```bash
-SPOTIFY_CLIENT_ID='my_client_id'
-SPOTIFY_CLIENT_SECRET='my_client_secret'
-```
+### `npm test`
 
-## Installation
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-These examples run on Node.js. On its
-[website](http://www.nodejs.org/download/) you can find instructions on how to
-install it.
+### `npm run build`
 
-Once installed, clone the repository and install its dependencies running:
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-```bash
-npm install
-```
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-## Running the example
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Start both client and server with the following command:
+### `npm run eject`
 
-```bash
-npm run dev
-```
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-The React application will start on `http://localhost:3000`
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-## Resources
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-- Follow [@SpotifyPlatform](https://twitter.com/SpotifyPlatform) on Twitter for Spotify for Developers updates.
-- Join the [Spotify for Developers Community Forum](https://community.spotify.com/t5/Spotify-for-Developers/bd-p/Spotify_Developer).
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Code of Conduct
+## Learn More
 
-This project adheres to the [Open Source Code of
-Conduct](https://github.com/spotify/code-of-conduct/blob/master/code-of-conduct.md).
-By participating, you are expected to honor this code.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-## License
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-Copyright 2021 Spotify AB.
+### Code Splitting
 
-Licensed under the Apache License, Version 2.0: http://www.apache.org/licenses/LICENSE-2.0
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
